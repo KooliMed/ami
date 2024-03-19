@@ -13,6 +13,7 @@
 <!-- wp:pattern {"slug":"twentytwentyfour/banner-top-2"} /-->
 <!-- wp:pattern {"slug":"twentytwentyfour/block-metiers"} /-->
 <!-- wp:pattern {"slug":"twentytwentyfour/block-domaines"} /-->
+<!-- wp:pattern {"slug":"twentytwentyfour/block-realisation"} /-->
 <!-- wp:pattern {"slug":"twentytwentyfour/brands"} /-->
 <!-- wp:pattern {"slug":"twentytwentyfour/block-carrieres"} /-->
 <!-- wp:pattern {"slug":"twentytwentyfour/block-contact"} /-->
