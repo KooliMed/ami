@@ -6,6 +6,8 @@
  * Viewport width: 1400
  */
 ?>
+<!-- wp:group -->
+<!-- wp:html -->
 <div id="realisations" class="carousel slide carousel-fade carousel-dark">
   <div class="carousel-indicators start-pauser">
     <button type="button" class="active indicator" data-bs-target="#realisations" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">Projet1</button>
@@ -78,3 +80,5 @@
     ?>
   </div>
 </div>
+<!-- /wp:html -->
+<!-- /wp:group -->

@@ -150,6 +150,7 @@ function my_theme_enqueue_scripts() {
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_scripts');
 
 function enqueue_front_script() {
+	wp_enqueue_script('slider-pause-js', get_parent_theme_file_uri('assets/js/slider-pause.js'), array('jquery'), '', true);
 	wp_enqueue_script('custom-js', get_parent_theme_file_uri('assets/js/custom.js'), array('jquery'), '', true);
 }
 // Hook the function to the 'wp_enqueue_scripts' action
