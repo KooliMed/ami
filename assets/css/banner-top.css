@@ -1,0 +1,67 @@
+/* banner top*/
+.gradient-div-top {
+    width: 100%;
+    height: 385px;
+    background: linear-gradient(to right, rgba(1, 146, 74, 1) 50%, rgba(1, 146, 74, 0) 75%);
+    position: absolute;
+    z-index: 1
+}
+
+.banner-top {
+    min-height: 385px;
+    max-height: 385px;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    background-color: rgba(1, 146, 74, 1) !important;
+}
+
+.banner-top-title {
+    border-left: 3px solid yellow;
+    padding-left: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-block-start: 10vh !important;
+    max-width: 500px;
+}
+
+.banner-top-description {
+    max-width: 520px;
+    padding-top: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-left: 5vw;
+}
+
+.banner-top-image-container {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    max-height: 385px;
+    overflow: hidden;
+    margin-block-start: 0px !important;
+}
+
+.banner-top-image {
+    float: right;
+    margin-right: -210px;
+    margin-top: -55px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .banner-top-title {
+        max-width: 85vw;
+        margin-block-start: 5vh !important;
+        font-size: 1.5rem;
+    }
+
+    .banner-top-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* eof banner top*/

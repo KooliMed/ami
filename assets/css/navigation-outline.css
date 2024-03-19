@@ -1,0 +1,17 @@
+#modal-1 .wp-block-navigation-item {
+  border-bottom: 2px solid transparent;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding:10px 25px;
+ }
+
+#modal-1 .wp-block-navigation-item:hover, #modal-1 .wp-block-navigation-item.active {
+	 background-color: #EFF0F7 !important;
+   border-bottom: #01924A 2px solid;
+   color: #01924A;
+  }
+  
+  #modal-1 ul {
+    padding-left:5vw;
+   }
+   

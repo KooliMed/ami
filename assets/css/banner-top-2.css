@@ -1,0 +1,42 @@
+	/* banner-top-2 */
+	.banner-top-2-container {
+		background: linear-gradient(to right, rgba(229, 221, 0, 1) 10%, rgba(1, 146, 74, 1) 40%);
+		width: 100%;
+		margin-left: 5vw;
+		margin-bottom: 35px;
+		margin-top: 35px;
+		min-width: 90vw;
+		max-width: 90vw;
+		min-height: 165px;
+		overflow: hidden;
+		margin-block-start: 35px !important;
+		margin-block-end: 35px !important;
+	}
+
+	.banner-top-2-column-1 {
+		color: white;
+		padding-top: 35px;
+		padding-left: 170px;
+		max-width: fit-content !important;
+	}
+
+	.banner-top-2-column-2 {
+		color: white;
+		font-weight: 600;
+		font-size: 1.4rem;
+		padding-top: 35px;
+		padding-left: 50px;
+	}
+
+	@media only screen and (max-width: 1000px) {
+		.banner-top-2-column-2 {
+			font-size: 1rem;
+			padding-bottom: 50px;
+		}
+
+		.banner-top-2-column-1 {
+			padding-left: 35vw;
+		}
+	}
+
+	/* eof banner-top-2 */
